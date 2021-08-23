@@ -1,0 +1,139 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    padding-bottom: 150px;
+}
+
+.carousel-inner{
+    padding-bottom: 60px;
+}
+
+.top-bg{
+    background-image: url(bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top-heading{
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.heading-bottom-txt{
+    font-size: 110%;
+    color: #858383;
+    margin-bottom: 40px;
+}
+
+.button-buy-now{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.card-top-header{
+    margin-bottom: 20px;
+}
+
+.card-top-header h2{
+    font-weight: bold;
+}
+
+.card-top-header p a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 15px;
+    padding: 50px;
+    
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body>h5{
+    font-weight: bold;
+}
+
+.card-body>p{
+    color: #6c757d;
+}
+
+.card-footer{
+    background-color: white;
+    border: none;
+    position: relative;
+}
+.button-div{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.buy-now-button{
+    border: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.category-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gradient-underline {
+    padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.gradient-underline::after {
+    background: #fff;
+    background: linear-gradient(45deg, orange, tomato);  
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 70%;
+    border-radius: 5px;
+    left: 15%;
+ }
+
+.category>div>div{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+}
+.category>div>div>div>p{
+    margin-top: 20px;
+}
+.category>div>div>div>img{
+    height: auto;
+    width: 100%;
+}
